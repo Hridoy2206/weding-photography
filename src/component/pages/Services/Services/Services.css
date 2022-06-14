@@ -1,0 +1,19 @@
+.cart-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+@media only screen and (max-width:576px) {
+    .cart-group{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+@media screen and (min-width:577px) and (max-width: 996px) {
+    .cart-group{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px auto;
+    }
+}

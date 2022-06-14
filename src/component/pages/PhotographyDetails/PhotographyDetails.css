@@ -1,0 +1,44 @@
+.photography-details{
+    background-color: aliceblue;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.photography-details h1{
+    color:#47B5FF;
+    font-weight: 700;
+}
+.photography-details p{
+    color: #444;
+    font-weight: 600;
+}
+.photography-image{
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.photography-image img:hover{
+    transform: scale(1.2);
+}
+.photography-image img{
+    width: 100%;
+    height: 250px;
+    transition: .3s;
+}
+.photography-info{
+    width: 50%;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 876px) {
+    .photography-details{
+    }
+    .photography-info{
+        display: none;
+    }
+    .photography-image {
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+    }
+}
